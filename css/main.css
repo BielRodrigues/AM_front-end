@@ -1,0 +1,121 @@
+.busca {
+	text-align: center;
+	height: 120px;
+	margin-bottom: 20px;
+}
+
+.campoBuscar {
+	width: 200px;
+	display: inline;
+    padding-right: 25px;
+}
+
+.botaoBuscar {
+	padding: 0;
+	width: 60px;
+	padding-right: 23px;
+	padding-bottom: 5px;
+}
+.meuRepositorio {
+	margin-bottom: 30px;
+}
+
+.excluirBotao {
+	background: red;
+	border-color: #000;
+}
+
+.excluirBotao:hover {
+	background: red;
+}
+
+.meusGruposTabela {
+	margin-bottom: 100px;
+}	
+
+.busca {
+	float: right;
+	margin-left: 50px;
+	height: 120px;
+}
+
+.botaoInscricao {
+	font-size: 20px;
+}
+
+.secao {
+	margin: 0;
+	margin-top: 10px;
+	width: 100%;
+	/*background: #1E1E1E;*/
+	padding: 15px;
+	line-height: 1.5;
+}
+
+.tituloItem {
+	color: #fff;
+	font-size: 25px;
+	color: #FF8901;
+	text-decoration: underline;
+	margin-bottom: 15px;
+}
+
+.blocoItem {
+	margin-top: 10px;
+	margin-bottom: 20px;
+	background: #2A2A2A;
+	padding: 25px;
+	padding-left: 25px;
+	line-height: 1.5;
+	border-radius: 5px;
+	margin-right: 5px;
+	margin-left: 5px;
+	transition: 0.6s;
+}
+
+.blocoItem:hover {
+		border-radius: 35px;
+		transition: 0.6s;
+}
+
+.blocoItem p {
+	color: #fff;
+	text-align: justify;
+	font-size: 20px;
+}
+
+.blocoItem button {
+	margin-top: 25px;
+	margin-left: 0;
+	padding: 6px;
+	margin-right: 10px;
+}
+
+.blocoRepositorio button {
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 18px;
+}
+
+.blocoItem .botaoBaixar {
+	background: #5EC6F3;
+	border: 0;
+}
+
+.blocoItem .botaoAtualizar {
+	background: #25D285;
+	border: 0;
+}
+
+.blocoItem .botaoExcluir {
+	background: #EC6E5A;
+	border:0;
+}
+
+.numMembros {
+	margin-bottom: 10px;
+}
+
+.botaoBuscarMaterial {
+	padding-right: 0;
+}

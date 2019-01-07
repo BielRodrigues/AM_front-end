@@ -1,0 +1,392 @@
+@font-face {
+     font-family: helveticaneue;
+     src: url('../font/Century-Gothic.ttf');
+}
+
+body {
+	background-color: #303030;
+	font-family: helveticaneue;
+}
+
+
+.container {
+	width: 94%;
+	margin: 0 auto;
+}
+
+
+
+.conteudoPrincipal {
+}
+
+.subtitulo {
+	font-size: 32px;
+	text-align: center;
+	color: #fff;
+	font-weight: lighter;
+}
+
+
+.conteudoPrincipal-cursos-link {
+	height: 100px;
+	background-color: #FFF;
+	text-align: center;
+	margin: 1%;
+	transition: .3s;
+	box-shadow: 2px 2px 2px #CCC;
+	position: relative;
+}
+
+.conteudoPrincipal-cursos-link a {
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.conteudoPrincipal-cursos-link:hover {
+	box-shadow: 4px 4px 4px #CCC;
+}
+
+.conteudoPrincipal-cursos-link a:before {
+	content: '';
+	display: block;
+	width: 50px;
+	height: 50px;
+	margin: 10px auto;
+}
+
+
+.rodapePrincipal {
+	background-color: #000;
+	padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.rodapePrincipal .subtitulo {
+	color: #FFF;
+}
+
+.rodapePrincipal-navMap-link {
+	text-decoration: none;
+	color: #FFF;
+	margin-top: 10px;
+}
+
+.rodapePrincipal-navMap-link {
+	font-size: 16px;
+}
+
+.rodapePrincipal-navMap-link:hover {
+color: #fff;
+text-decoration: none;
+}
+
+.navmap-list-title {
+	font-weight: 700;
+	font-size: 1.3em;
+	margin: .9em 0;
+	padding-left: .3em;
+	padding-top: .2em;
+	padding-bottom: .2em;
+}
+
+.navmap-list-title + .rodapePrincipal-navMap-link {
+	margin-top: 0;
+}
+
+.navmap-list-title-bancoDeDados { color: #EC6E5A; border-left: 4px solid #EC6E5A; }
+.navmap-list-title-framework { color: #AD85BF; border-left: 4px solid #AD85BF; }
+.navmap-list-title-frontend { color: #5EC6F3; border-left: 4px solid #5EC6F3; }
+.navmap-list-title-backend { color: #25D285; border-left: 4px solid #25D285; }
+
+@media(min-width: 769px) {
+
+	.container {
+		width: 85%;	
+	}
+
+	.subtitulo {
+		margin-top: 100px;
+		margin-bottom: 15px;
+	}
+	.cabecalhoPrincipal-titulo {
+		margin: 0;
+	}
+
+	.cabecalhoPrincipal-nav {
+		width: auto;
+	}
+
+	.cabecalhoPrincipal-nav-link {
+		width: auto;
+		margin: 0 0 0 10px;
+	}
+}
+
+.cabecalhoPrincipal {
+	background: rgba(0, 0, 0, 0.4);
+	padding-top: 20px;
+	position: absolute;
+	width: 100%;
+	border-bottom: 2px solid #FF8901;
+}
+
+.cabecalhoPrincipal-titulo {
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+.cabecalhoPrincipal-titulo a {
+	text-decoration: none;
+	color: #000;
+}
+
+.cabecalhoPrincipal-nav-link {
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: 18px;
+	color: #FF8901;
+	background-color: ;
+	text-decoration: none;
+	display: block;
+	border: none;
+	transition: 0.6s;
+border-bottom: none solid #fff;
+text-decoration: none;
+}
+
+.cabecalhoPrincipal-nav-link p {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.cabecalhoPrincipal-nav a:hover {
+	text-decoration: none;
+color: #fff;
+background: none;  
+border: none;
+border-bottom: 1px solid #fff;
+border-radius: 0px;
+transition: 0.6s;
+}
+
+.tab-pane form {
+	margin-top: 0;
+	border-radius: 0;
+	border: 1px solid #ddd;
+	
+}
+
+.nav-tabs {
+	border-bottom: 0;
+	background: #2a2a2a;
+	padding-bottom: 1px;
+}
+
+.nav-tabs>li>a {
+border-bottom: none;
+}
+
+#tabs li a {
+	color:#fff;
+	background: #2a2a2a;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+background: none;
+}
+
+.glyphicon-home {
+	left: 5px;
+}
+
+.glyphicon-star-empty {
+	left: 19px;
+}
+
+.glyphicon-eye-open {
+	left: 9px;
+}
+
+.glyphicon-tasks {
+	left: 16px;
+}
+
+.glyphicon-log-in {
+	left: 1px;
+}
+
+.glyphicon-off {
+	right: 1px;
+}
+
+.glyphicon-share-alt {
+	left: 7px;
+}
+
+.botaoBuscarEstagio {
+	padding-right: 0 !important;
+}
+
+.linkBtn {
+	text-decoration: none;
+	color: #fff;
+}
+
+.linkBtn:hover {
+	text-decoration: none;
+	color: #fff;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+
+
+
+@media only screen and (max-width: 1280px) {
+    .chatposition {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+	.cabecalhoPrincipal-nav {
+    height: auto !important;
+}
+
+.cabecalhoPrincipal-nav-link span {
+	display: none;
+}
+}
+
+.banner {
+  background-image: url("../img/banner.jpg");
+  width: 100%;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.banner h1 {
+	padding: 250px;
+	font-size: 70px;
+	color: #fff;
+	
+	font-weight: lighter;
+}
+
+
+.ia {
+	
+	width: 100%;	
+	padding: 50px;
+	width: 85%;
+	margin: 0 auto;	
+	color: #fff;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.ia h2 {
+	color: #fff;
+}
+
+.ia p {
+background: rgba(0, 0, 0, 0.5);
+padding: 20px;
+}
+
+.fundoia {
+	width: 100%;
+	background: yellow;
+	background-image: url("../img/banneria.gif");
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	line-height: 1.5;
+  	-webkit-filter: grayscale(40%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(40%);
+}
+
+
+footer {
+	color: #fff;
+	text-align: center;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	background: #FF8901;
+	border-top: 2px solid black;
+
+}
+
+.banneria {
+  background-image: url("../img/banneria.gif");
+  width: 100%;
+  height: 560px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: justify;
+}
+
+.titchatbot {
+	text-decoration-line: underline;
+	padding-bottom: 0px !important;
+	font-size: 25px;
+}
+
+
+.footerfix {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	text-align: center;
+}
+
+.backgroundlogin {
+	background-image: url("../img/original.jpg");
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	background-attachment: fixed;
+}
+
+.avaliacao {
+	background: none;
+	height: 200px;
+	text-align: center !important;
+}
+
+.avaliacao h1 {
+	padding: 120px;
+	padding-bottom: 0;
+}
+
+.feedback {
+	text-align: center !important;
+}
+
+.blocofeed {
+	background: none!important;
+}
+
+.bannerAluno {
+	background-image: url("../img/banner.jpg");
+	height: 400px;
+
+}
+

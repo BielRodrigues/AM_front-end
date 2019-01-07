@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Cadastro</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/flexbox.css">
+	<link rel="stylesheet" href="css/menu.css">
+	<link rel="stylesheet" href="css/tabela.css">
+  <link rel="stylesheet" href="css/formulario.css">
+  <link rel="stylesheet" href="css/cadastroAluno.css">
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+<script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+</head>
+<body>
+
+	<header class="cabecalhoPrincipal menuAdm">
+		<div class="container">
+			<h1 class="cabecalhoPrincipal-titulo">
+				<a href="#"><img src="img/logos.png" height="44px"></a>
+			</h1>
+
+			<nav class="cabecalhoPrincipal-nav">
+				<a class="cabecalhoPrincipal-nav-link" href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span><p>Home</p></a>
+				<a class="cabecalhoPrincipal-nav-link" href="synthia.html"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span><p>Synthia</p></a>           
+				<a class="cabecalhoPrincipal-nav-link" href="login.html"><span class="glyphicon glyphicon-log-in" aria-hidden="true"></span><p>Login</p></a>
+
+        <a class="cabecalhoPrincipal-nav-link" href="login.html"><span class="glyphicon glyphicon-off" aria-hidden="true"></span><p>Sair</p></a>    
+
+				<a class="cabecalhoPrincipal-nav-link" href="perfiladm.html"><span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span><p>Voltar</p></a>        
+			</nav>		
+		</div>
+
+	</header>
+<div class="banner bannerAluno">
+  <h1>Bem-vindo</h1>
+</div>
+	<main class="conteudoPrincipal">
+
+<div id="content">
+<table class="tabelaAlunos">
+  <tr>
+    <th>CPF</th>
+    <th>Nome</th>
+    <th>Data de nascimento</th>
+    <th>Senha</th>
+    <th style=""></th>
+  </tr>
+  <tr>
+    <td>77541398</td>
+    <td>João da Silva</td>
+    <td>01/01/2000</td>
+    <td>123456</td>
+    <td class="remover"><a href="">Remover</a></td>
+  </tr>
+  <tr>
+    <td>65687431</td>
+    <td>Humberto dos Bertos</td>
+    <td>20/04/1999</td>
+    <td>qwerty</td>
+    <td class="remover"><a href="">Remover</a></td>
+  </tr>
+  <tr>
+    <td>89566322</td>
+    <td>Bob Good</td>
+    <td>09/11/1998</td>
+    <td>hl2rp</td>
+    <td class="remover"><a href="">Remover</a></td>
+  </tr>
+  <tr>
+    <td>54562321</td>
+    <td>Maria Lima</td>
+    <td>23/07/2002</td>
+    <td>1234567</td>
+    <td class="remover"><a href="">Remover</a></td>
+  </tr>   
+</table> 
+<div class="container">
+    <div id="my-tab-content" class="tab-content">
+        <div class="tab-pane active" id="aluno">
+        	<form class="cadastro cadastroAluno" name="formAluno" action="#" method="post">
+        		<h2 class="subtitulo formtit">Cadastrar um novo aluno</h2>
+					<label>Nome do Aluno</label>
+					<input class="campoFormulario" type="text" id="idNomeAluno" name="nome">        		
+					
+					<label>CPF</label>
+					<input class="campoFormulario" type="text" id="cpf" name="cpf">     	
+
+	            	<label class="email emailCadastro">Email</label>
+	                	<input class="campoFormulario" type="text" id="idEmail" name="email">
+	            	
+	            	<label class="senha">Senha</label> 
+	                <input class="campoFormulario" type="Password" name="senha" id="idSenha" maxlength="22">
+					<label>Data de nascimento</label>
+					<input id="date" type="date" class="campoFormulario">
+          <button class="botao" type="Submit" value="Enviar" name="cadastrar" onclick="return validarAluno()">Cadastrar</button>
+
+         	</form>
+        </div>
+    </div>
+
+		</div>
+
+  
+	</main>
+      
+              
+    
+<footer>
+&copy; Softwave - Todos os direitos reservados.
+</footer>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
+<script src="js/form.js"></script>
+</body>
+</html>

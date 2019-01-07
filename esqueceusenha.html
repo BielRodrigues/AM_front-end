@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Login</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/flexbox.css">
+	<link rel="stylesheet" href="css/formulario.css">
+	<link rel="stylesheet" href="css/menu.css">
+
+<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+<link rel="icon" href="img/favicon.ico" type="image/x-icon">	
+</head>
+<body>
+
+	<header class="cabecalhoPrincipal">
+		<div class="container">
+			<h1 class="cabecalhoPrincipal-titulo">
+				<a href="#"><img src="img/logos.png" height="44px"></a>
+			</h1>
+			<nav class="cabecalhoPrincipal-nav">
+				<a class="cabecalhoPrincipal-nav-link" href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span><p>Home</p></a>
+				<a class="cabecalhoPrincipal-nav-link" href="synthia.html"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span><p>Synthia</p></a>         
+				<a class="cabecalhoPrincipal-nav-link" href="login.html"><span class="glyphicon glyphicon-log-in" aria-hidden="true"></span><p>Login</p></a>
+				
+			</nav>			
+		</div>
+
+	</header>
+
+	<main class="conteudoPrincipal">
+		<div class="container">
+			<h2 class="subtitulo">Login</h2>
+			<form class="login" name="recuperarSenha" action="enviar" method="post">	
+	            	<label class="email">Digite seu e-mail cadastrado</label>
+	                	<input class="campoFormulario" type="text" id="idEmail" name="email" required>
+
+                    <button class="botao" type="Submit" value="Enviar">Enviar</button>
+                 
+			</form>
+		</div>
+
+	</main>
+
+<footer class="footerfix">
+&copy; Softwave - Todos os direitos reservados.
+</footer>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>

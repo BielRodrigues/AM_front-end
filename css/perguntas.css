@@ -1,0 +1,93 @@
+#content {
+	width: 100%;
+}
+
+#content ul li {
+	width: 30%;
+	margin: 10%;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+.nav-tabs {
+	background: none;
+}
+
+#tabs li a {
+	background: #FF8901;
+	color: #fff;
+	border-radius: 5px;
+	padding: 6px;	
+	font-weight: lighter;
+	padding: 10px;
+	font-size: 23px;
+	margin-top: 10px;
+	text-transform: uppercase;
+	text-align: center;
+	transition: 0.6s;
+	border: 3px solid #FF8901;	
+
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+	 transform: scale(1.1);
+	transition: 0.6s;
+	background: black !important;
+	color: white !important;
+	border-radius: 10px;
+	border: 2px dashed #FF8901 !important;	
+}
+
+#nada {
+	visibility: hidden;
+}
+
+.bannerPergunta {
+	background-image: url("../img/banneradm.png");
+	border-bottom: 2px solid black;
+	height: 90px;
+}
+
+button:hover {
+	background: blue;
+}
+
+.cabecalhoPrincipal {
+     background: rgba(0, 0, 0, 0); 
+}
+
+form {
+    float: right;
+    width: 91%;
+    margin: 5%;
+
+ }
+.campoFormulario {
+ 	width: 100%;
+}
+
+.niveis {
+	float: right;
+}
+
+.divNivel {
+	width: 40%;
+	float: right;
+}
+
+.divPerguntas {
+	width: 40%;
+	
+}
+}
+.campoFormulario {
+	width: 100px;
+}
+
+.botao {
+	margin-left: 0;
+}
+
+.nav-tabs {
+	padding-bottom: 30px;
+}

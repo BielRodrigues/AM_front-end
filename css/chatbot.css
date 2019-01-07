@@ -1,0 +1,141 @@
+.chatcontainer {
+  position: absolute;
+  margin-top: 333px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+
+.field {
+  display: block;
+  width: 467px;
+  line-height: 20px;
+  padding: 11px 5px;
+  font-size: 14px;
+  border: 0;
+  border: 5px #000 solid;
+  border-top: 1px black solid;
+  border-right: none;
+  border-radius: 5px;
+  color: #fff;
+  background: #303030;
+  float: left;
+  transition: 0.5s;
+}
+
+.field:hover {
+  background: #fff;
+  transition: 0.5s;
+  color: black;
+}
+
+.chatbot {
+  margin: 10px 40px;
+  padding: 10px 15px;
+  background: #214BB5;
+  color: white;
+  width: 200px;
+  border-radius: 6px;
+  box-shadow: 0.05em 0.05em black;
+  float: left;
+  border-bottom: 2px #FF8901 solid;
+}
+
+.chatuser {
+  margin: 10px 40px;
+  padding: 10px 15px;
+  background: #EEE7E0;
+  color: black;
+  width: 200px;
+  border-radius: 6px;
+  float: right;
+  box-shadow: 0.05em 0.05em black;
+  text-align: right;
+}
+
+.iconbot {
+  background: #EEE7E0;
+  border-radius: 50%;
+  border: 4px #214BB5 solid;
+  margin-left: -40px;
+  margin-right: 10px;
+  float: left;
+  box-shadow: 0.05em 0.05em black;
+}
+
+.iconuser {
+  background: #EEE7E0;
+  border-radius: 50%;
+  border: 4px #214BB5 solid;
+  margin-left: 10px;
+  margin-right: -40px;
+  float: right;
+  box-shadow: 0.05em 0.05em black;
+}
+
+
+
+button {
+  display: block;
+  background: #54504C;
+  font-size: 22px;
+  color: #FF8901;
+  padding: 10px 20px;
+  border: 0;
+  border-radius: 3px;
+  position: relative;
+  text-shadow: 0.05em 0.05em black;
+  transition: 0.6s;
+  border: 2px #FF8901 solid;
+}
+
+button:hover {
+  background: #FF8901;
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: 0.6s;
+  color: #fff;
+}
+
+.pulse {
+  width: 575px;
+  height: 300px;
+  background: #2A2A2A;
+  color: #262626;
+  
+  font-size: 14px;
+  font-family: verdana;
+  overflow-y: scroll;
+  border: 5px black solid;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.pulse-animation {
+  animation: animate 3s linear infinite;
+}
+
+@keyframes animate {
+  0% 
+  {
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, .7), 0 0 0 0 rgba(255, 255, 255, .7);
+  }
+  40% 
+  {
+    box-shadow: 0 0 0 20px rgba(255, 255, 255, 0), 0 0 0 0 rgba(255, 255, 255, .7);
+  }
+  80% 
+  {
+    box-shadow: 0 0 0 20px rgba(255, 255, 255, 0), 0 0 0 15px rgba(255, 255, 255, 0);
+  }
+  100% 
+  {
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0), 0 0 0 15px rgba(255, 255, 255, 0);
+  }
+}
+
+
+form {
+
+}

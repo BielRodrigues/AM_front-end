@@ -1,0 +1,15 @@
+	.cabecalhoPrincipal-nav-link span {
+		font-size: 23px !important;
+	}
+
+	.cabecalhoPrincipal-nav-link {
+		border-radius: 5px;
+		
+		font-size: 12px !important;
+
+	}
+
+	.cabecalhoPrincipal-nav-link:hover {
+		color: #FFF;
+		background-color: #9799A6;
+	}

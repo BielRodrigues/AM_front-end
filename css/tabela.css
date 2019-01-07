@@ -1,0 +1,41 @@
+.tabelaAlunos {
+	border-collapse: collapse;
+	width: 70%;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+
+.tabelaAlunos td, .tabelaAlunos th {
+	padding: 10px;
+	
+	border: 1px solid #ddd;
+}
+.tabelaAlunos tr {background: white;}
+.tabelaAlunos tr:nth-child(even){background-color: #f2f2f2;}
+
+.tabelaAlunos tr:hover {background-color: #ddd;}
+
+.tabelaAlunos th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background: #FF8901;;
+    color: white;
+}
+
+.remover {
+	text-align: center;
+}
+.remover a {
+	color: red;
+}
+
+.formtit {
+	font-size: 26px;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	color: #FF8901;
+}
+
+.cadastroAluno {
+	margin-bottom: 15px;
+}

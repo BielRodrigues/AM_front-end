@@ -1,0 +1,124 @@
+form {
+    width: 400px;
+	background: rgba(0, 0, 0, 0.8);
+	padding: 30px;
+	border-radius: 15px;
+	margin: 0 auto;
+	
+	margin-top: 40px;
+}
+
+.busca {
+	    width: 400px;
+	background: #1E1E1E;
+	padding: 30px;
+	border-radius: 15px;
+	margin: 0 auto;
+	margin-bottom: 100px;
+	margin-top: 40px;
+}
+
+.perfilBox {
+	width: 400px;
+	background: #1E1E1E;
+	padding: 30px;
+	border-radius: 15px;
+	margin: 0 auto;
+	margin-bottom: 100px;
+	margin-top: 40px;
+	color: #fff;
+}
+
+#content {
+	width: 400px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+form label {
+	font-size: 24px;
+	font-weight: lighter;
+	color: #fff;
+}
+
+.campoFormulario {
+	display: flex;
+	background: #eee;
+	border: 3px solid #000;
+	border-radius: 7px;
+	padding: 15px;
+	height: 20px;
+	/*padding-right: 142px;*/
+	width: 330px;
+	margin: 15px;
+	margin-left: 0;
+	
+}
+.novaConta {
+	display: flex;
+	color: #FF8901;
+	padding: 5px;
+	font-size: 17px;
+}
+
+.novaConta:hover {
+	color: #fff;
+}
+
+.botao {
+	background: #FF8901;
+	margin-left: 15px;
+	border: 3px solid #FF8901;
+	border-radius: 10px;
+	padding: 6px;	
+	font-weight: lighter;
+	padding: 10px;
+	font-size: 23px;
+	margin-top: 10px;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.botao:hover {
+	background: #000;
+}
+
+.receberEmail {
+	
+	margin-bottom: 20px;
+	color: #fff;
+}
+
+.receberEmail input {
+	margin-right: 5px;
+}
+
+.emailCadastro {
+	margin-top: 15px;
+}
+
+
+#idSalOp {
+	padding-right: 0px;
+	padding-left: 0px;	
+	width: 80px;
+}
+
+textarea {
+	height: 100px;
+	width: 500px;
+}
+
+
+
+.bannerAdm {
+	background-image: url("../img/banneradm.png");
+	border-bottom: 2px solid black;
+	height: 400px;
+}
+
+.bannerAdm h1 {
+	font-size: 70px;
+}
+
+
